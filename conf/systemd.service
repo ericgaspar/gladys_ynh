@@ -10,7 +10,7 @@ WorkingDirectory=__FINALPATH__/
 Environment="PATH=__ENV_PATH__"
 Environment="NODE_ENV=production"
 ExecStart=__YNH_NODE__ __FINALPATH__/server start:prod
-ExecStart=__YNH_NODE__ __FINALPATH__/front start:prod
+#ExecStart=__YNH_NODE__ __FINALPATH__/front start:prod
 StandardError=inherit
 
 # Sandboxing options to harden security
