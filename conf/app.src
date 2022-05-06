@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/GladysAssistant/Gladys/archive/refs/tags/v4.8.4.tar.gz
+SOURCE_SUM=903b60b9905860ef6030bb54a47d9f60c50de96e6847fce41db279125b23dbef
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
