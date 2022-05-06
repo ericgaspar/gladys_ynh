@@ -119,10 +119,10 @@ pushd $final_path/server
 	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install
 popd
 
-pushd $final_path/front
- 	ynh_use_nodejs
-	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install
-popd
+# pushd $final_path/front
+#  	ynh_use_nodejs
+# 	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install
+# popd
 
 #=================================================
 # SETUP SYSTEMD
